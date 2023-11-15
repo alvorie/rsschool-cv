@@ -32,3 +32,14 @@ function arrayDiff(a, b) {
   return a;
 }
 ```
+## Work Experience
+
+- **CS Mentor** at 100points - Unified State Exam School *(january 2022 - now)*
+
+## Education
+
+- Bachelors, Applied Computer Science, RTU MIREA *(september 2022 - july 2026)*
+
+## English language
+
+- **C1** according to CEFR
