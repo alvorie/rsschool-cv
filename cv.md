@@ -5,7 +5,7 @@
 ## Contact me here
 
 - **Phone:** +7 912 640 27 60  
-- **GitHub:** @alvorie
+- **GitHub:** [@alvorie](https://github.com/alvorie)
 - **E-mail:** 123foggy123@gmail.com
 
 ## About
@@ -14,9 +14,9 @@ Having just started my second year at university, I became interested in web-dev
 
 ## Skills
 
-- Basic HTML, CSS and JS knowledge
-- Adobe Photoshop, Adobe Illustrator, Figma
-- Git
+- Basic **HTML**, **CSS** and **JS** knowledge
+- **Adobe Photoshop**, **Adobe Illustrator**, **Figma**
+- **Git**
 
 ## Code Examples
 
@@ -38,7 +38,7 @@ function arrayDiff(a, b) {
 
 ## Education
 
-- Bachelors, Applied Computer Science, RTU MIREA *(september 2022 - july 2026)*
+- **Bachelors, Applied Computer Science, RTU MIREA** *(september 2022 - july 2026)*
 
 ## English language
 
