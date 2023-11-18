@@ -1,1 +1,1 @@
-# rsschool-cv
+https://alvorie.github.io/rsschool-cv/
