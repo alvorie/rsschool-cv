@@ -14,8 +14,14 @@ body {
 }
 
 .nav-link {
+    color: black;
     padding: 0 20px;
     line-height: 30px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: chocolate;
 }
 
 .nav-link:before {
@@ -29,7 +35,7 @@ html {
   }
 
 .photo-image {
-    width: 300px;
+    width: 200px;
 }
 
 h1 {
@@ -50,7 +56,6 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
-    align-items: start;
     justify-content: center;
     padding: 20px;
 }
@@ -58,4 +63,8 @@ h2 {
 section {
     padding: 16px 40px;
     width: 50%;
+}
+
+ul {
+    line-height: 150%;
 }
