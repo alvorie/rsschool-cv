@@ -27,3 +27,35 @@ body {
 html {
     scroll-behavior: smooth;
   }
+
+.photo-image {
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.main-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    padding: 16px 40px;
+    width: 50%;
+}
