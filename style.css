@@ -4,12 +4,26 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .nav-list {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     font-size: 14px;
+    list-style: none;
 }
-.nav-item {
-    margin-right: 20px;
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 30px;
 }
+
+.nav-link:before {
+    content: "→";
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
