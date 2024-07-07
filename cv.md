@@ -10,7 +10,7 @@
 
 ## About
 
-Having just started my second year at university, I became interested in web-development. Starting is hard, but I believe that perseverance will lead me the right way.
+Close to starting my third year at university, I became interested in web-development. Starting is hard, but I believe that perseverance will lead me the right way.
 
 ## Skills
 
@@ -34,7 +34,7 @@ function arrayDiff(a, b) {
 ```
 ## Work Experience
 
-- **CS Mentor** at 100points - Unified State Exam School *(january 2022 - now)*
+- **CS Mentor** at 100points - Unified State Exam School *(january 2022 - january 2023)*
 
 ## Education
 
