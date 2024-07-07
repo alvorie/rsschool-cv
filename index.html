@@ -3,8 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alena's CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#work-experience" class="nav-link">Work Experience</a></li>
+                <li class="nav-item"><a href="#code-examples" class="nav-link">Code Examples</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <figure>
+            <img class= "photo-image" src="./assets/images/photo_2024-04-11_15-07-38.jpg" alt="Alena Volf">
+            <h1>Alena Volf</h1>
+        </figure>
+        <section id = "about">
+            <h2>About</h2>
+            <h3 class="main-text">Close to starting my third year at university, I became interested in web-development. Starting is hard, but I believe that perseverance will lead me the right way.</h3>
+        </section>
+        <section id = "contacts">
+            <h2>Contact me here:</h2>
+            <ul>
+                <li>Phone: +7 912 640 38 71</li>
+                <li>GitHub: <a href = "https://github.com/alvorie">alvorie</a></li>
+                <li>E-mail: volf.aleena@mail.ru</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class = "main-text">
+                <li>Basic HTML, CSS and JS knowledge</li>
+                <li>Adobe Photoshop, Adobe Illustrator, Figma</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p class="main-text">Bachelors, Applied Computer Science, RTU MIREA</p>
+            <p class="main-text"><i>(september 2022 - july 2026)</i></p>
+        </section>
+        <section id="code-examples">
+            <h2>Code Example</h2>
+            <pre>function arrayDiff(a, b) {
+                for (let i = 0; i &lt; a.length; i++){
+                  if (b.includes(a[i])){
+                    a.splice(i,1);
+                    console.log(a);
+                    i--;
+                  }
+                }
+                return a;
+              }</pre>
+        </section>
+        <section id="languages">
+            <h2>Languages</h2>
+            <p class="main-text"><b>English:</b> <i>C1 CEFR level</i></p>
+            <p class="main-text"><b>Russian:</b> <i>Native</i></p>
+        </section>
+        <section id="work-experience">
+            <h2>Work experience</h2>
+            <p class="main-text"><b>CS Mentor</b> at 100points - Unified State Exam School</p>
+            <p class="main-text"><i>(january 2023 - january 2024)</i></p>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <p class = "footer-element">made in 2024</p>
+        <a class = "footer-element" href="https://rs.school/courses/javascript-ru"><img class="footer-icon" src="./assets/icons/rss.svg" alt="rs school"></a>
+        <a class = "footer-element" href="https://github.com/alvorie"><img class="footer-icon" src="./assets/icons/Octicons-mark-github.svg" alt="github"></a>
+    </footer>
 </body>
 </html>
