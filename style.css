@@ -2,7 +2,7 @@ body {
     font-family: 'Lato';
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nav-list {
@@ -28,6 +28,14 @@ body {
     content: "→";
     font-weight: 900;
     padding-right: 5px;
+}
+
+header {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+footer {
+    border-top: 1px solid #dcdcdc;
 }
 
 html {
@@ -67,4 +75,18 @@ section {
 
 ul {
     line-height: 150%;
+}
+
+.footer-icon {
+    height: 25px;
+}
+
+.footer-element {
+    padding: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
